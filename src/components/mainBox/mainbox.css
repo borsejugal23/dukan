@@ -108,6 +108,8 @@
     display: flex;
     flex-direction: column;
     padding: 12px;
+    box-shadow: 0px 2px 6px 0px #1A181E0A;
+
   }
   
   .mainbox .container .table .table_fun {
@@ -156,3 +158,33 @@
 
 
   }
+
+  table {
+    width: 100%;
+    border-collapse: separate;
+    
+  }
+  
+  table tr {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 85.33px;
+    padding: 10px 12px;
+
+  }
+  
+  table tr:first-child {
+    background-color: #f2f2f2;
+  }
+  
+  table tr td {
+    text-align: left;
+    width: 150px;
+    font-size: 16px;
+    color: rgb(77, 75, 75);
+  }
+  
+  table tr td:last-child {
+    text-align: right;
+  }
+  

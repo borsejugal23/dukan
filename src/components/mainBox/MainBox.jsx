@@ -5,8 +5,17 @@ import { ReactComponent as ImgSVG2 } from '../assets/help.svg';
 import { ReactComponent as ImgSVG3 } from '../assets/search.svg';
 import { ReactComponent as ImgSVG4 } from '../assets/side/download.svg';
 import { ReactComponent as ImgSVG5 } from '../assets/side/Vector.svg';
+import Table from '../table/Table';
 
 const MainBox = () => {
+
+   const tableInsert = () => {
+      const tableArray = [];
+      for (let i = 0; i < 7; i++) {
+        tableArray.push(<Table key={i} />);
+      }
+      return tableArray;
+    };
   return (
     <div className="mainbox">
         <div className="container">
@@ -54,15 +63,15 @@ const MainBox = () => {
             </div>
           </div>
 
-            {/*  */}
+            
             <span className='transactions'>Transactions | This Month</span>
-            {/*  */}
+          
 
             <div className="clickButton">
                 <button className="btn_payouts">Payouts (22)</button>
                 <button className="btn_refunds">Refunds (6)</button>
             </div>
-            {/*  */}
+           
           
         <div className="table">
             <div className="table_fun">
@@ -81,7 +90,18 @@ const MainBox = () => {
 
                 </div>
             </div>
-
+              
+              <br />
+            <table>
+                    <tr>
+                        <td>Order ID</td>
+                        <td>Status</td>
+                        <td>Transaction ID</td>
+                        <td>Refund date </td>
+                        <td>Order amount</td>
+                    </tr>
+                    {tableInsert()}
+                </table> 
 
         </div>
             

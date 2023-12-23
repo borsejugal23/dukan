@@ -1,0 +1,33 @@
+tr {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 85.33px;
+    padding: 10px 14px;
+  }
+  
+  tr td {
+    text-align: left;
+    width: 150px;
+    font-size: 16px;
+    color: rgb(77, 75, 75);
+    position: relative;
+  }
+  
+  tr td:last-child {
+    text-align: right;
+  }
+  
+  tr td:nth-child(2) {
+    /* background-color: silver; */
+  }
+  
+  tr td .online {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: limegreen;
+    position: absolute;
+    top: 6px;
+    left: -12px;
+  }
+  
