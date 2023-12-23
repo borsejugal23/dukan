@@ -1,0 +1,14 @@
+.app {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  
+  .app .container2 {
+    display: flex;
+    flex-direction: column;
+    width: 1216px;
+  }
+  

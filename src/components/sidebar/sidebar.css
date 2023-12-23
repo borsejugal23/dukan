@@ -1,0 +1,118 @@
+.sidebar {
+  background-color: #1e2640;
+  color: white;
+  width: 204px;
+  height: 850px;
+  padding: 16px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.sidebar .side_container1 {
+  display: flex;
+  flex-direction: column;
+  height: 764px;
+  gap: 24px;
+}
+
+.sidebar .side_container1 .side_top {
+  height: 42px;
+  width: 192px;
+  margin: 0 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidebar .side_container1 .side_top .side_top_left {
+  display: flex;
+  gap: 12px;
+}
+
+.sidebar .side_container1 .side_top .side_top_left .side_svg_img {
+  height: 39px;
+  width: 39px;
+  border-radius: 6px;
+}
+
+.sidebar .side_container1 .side_top .side_top_left .side_top_text {
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.sidebar .side_container1 .side_top .side_top_left .side_top_text .side_top_text1 {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.sidebar .side_container1 .side_top .side_top_left .side_top_text .side_top_text2 {
+  font-size: 13px;
+  color: #858282;
+}
+
+.sidebar .side_container1 .side_top .side_svg {
+  color: white;
+}
+
+.sidebar .side_container1 .side_bottom {
+  display: flex;
+  flex-direction: column;
+  width: 208px;
+  height: 36;
+}
+
+.sidebar .side_container1 .side_bottom .side_logo {
+  padding: 8px 16px;
+}
+
+.sidebar .side_container1 .side_bottom .side_logo .side_menu {
+  display: flex;
+  align-items: center;
+  padding: 3px 0;
+  gap: 10px;
+}
+
+.sidebar .side_container1 .side_bottom .side_logo .side_menu .side_svg {
+  height: 18px;
+  width: 18px;
+}
+
+.sidebar .side_container1 .side_bottom .side_logo .side_menu .side_menu_text {
+  font-size: 14px;
+}
+
+.sidebar .side_container2 {
+  display: flex;
+  width: 192px;
+  height: 54px;
+  padding: 6px 12px;
+  border-radius: 4px;
+  gap: 10px;
+}
+
+.sidebar .side_container2 .side_svg {
+  height: 36px;
+  width: 36px;
+}
+
+.sidebar .side_container2 .side_container2_bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.sidebar .side_container2 .side_container2_bottom .side_container2_bottom_text {
+  font-size: 13px;
+  font-weight: 400;
+  text-align: left;
+  color: #cccc;
+}
+
+.sidebar .side_container2 .side_container2_bottom .side_container2_bottom_number {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+}

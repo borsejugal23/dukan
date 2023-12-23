@@ -1,0 +1,158 @@
+.mainbox {
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+  }
+  
+  .mainbox .container {
+    width: 1152px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  
+  .mainbox .container .top {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .mainbox .container .top .mainbox_top {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .mainbox .container .top .mainbox_top .mainbox_top_text {
+    font-family: Galano Grotesque;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    /* color:red; */
+    width: 91px;
+    height: 28px
+
+
+  }
+  
+  .mainbox .container .top .mainbox_top .mainbox_top_button {
+    border: 1px solid #cccc;
+    height: 8px;
+    width: 95px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    padding: 14px 6px;
+    gap: 2px;
+  }
+  
+  .mainbox .container .top .payouts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 23px;
+  }
+  
+  .mainbox .container .top .payouts .payouts_container {
+    border: 1px solid #cccc;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+  }
+  
+  .mainbox .container .top .payouts .payouts_container .next_payout {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .mainbox .container .top .payouts .payouts_container .payouts_price {
+    font-size: 32px;
+  }
+  
+  .mainbox .container .top .payouts .payouts_container .payouts_text {
+    font-size: 16px;
+  }
+  
+  .mainbox .container .transactions {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .mainbox .container .clickButton {
+    display: flex;
+    width: 241px;
+    height: 32px;
+    gap: 12px;
+  }
+  
+  .mainbox .container .clickButton .btn_payouts {
+    width: max-content;
+    border: none;
+    padding: 5px 10px;
+    background-color: silver;
+    color: rgb(23, 22, 22);
+    border-radius: 20px;
+  }
+  
+  .mainbox .container .clickButton .btn_refunds {
+    width: max-content;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    background-color: rgb(72, 72, 170);
+    border-radius: 20px;
+  }
+  
+  .mainbox .container .table {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+  }
+  
+  .mainbox .container .table .table_fun {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .mainbox .container .table .table_fun .table_search {
+    border: 1px solid #cccc;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+  }
+  
+  .mainbox .container .table .table_fun .table_search input {
+    border: none;
+    padding: 5px;
+    color: #464242cc;
+  }
+  
+  .mainbox .container .table .table_fun .table_search input:focus {
+    outline: none;
+  }
+  
+  .mainbox .container .table .table_fun .table_sort {
+    display: flex;
+    align-items: center;
+    width:  131px;
+    height:  36px;
+    gap: 12px;
+    
+
+  }
+  
+  .mainbox .container .table .table_fun .table_sort .sort {
+    width:  79px;
+    height:  36px;
+    padding: 6px, 12px, 6px, 12px;
+    border-radius: 4px;
+    /* border: 1px; */
+    gap: 6px;
+    /* background-color:  red; */
+    border: 1px solid #D9D9D9;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
+    linear-gradient(0deg, #D9D9D9, #D9D9D9);
+
+
+  }
